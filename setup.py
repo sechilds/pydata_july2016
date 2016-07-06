@@ -11,7 +11,7 @@ setup(
     description = 'Sample package for PyData Calgary July 2016 meetup',
     long_description=read('README.md'),
     entry_points = {
-        'console_scripts': ['pydata_july2016=pydata_july2016:main'],
+        'console_scripts': ['pydata_july2016=pydata_july2016.pydata_july2016:main'],
     }
 )
 
