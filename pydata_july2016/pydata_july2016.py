@@ -49,9 +49,11 @@ def system_path():
     logger.info('Getting system path.')
     return '\n'.join(os.environ['PATH'].split(':'))
 
-def main():
+def run():
     setup_logging()
+    main()
 
+def main():
     logger.info('Logging from main() function.')
     print('This is my Python path:\n\n')
     print(python_path())
