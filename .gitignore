@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 reveal.js/
 *.egg-info/
+__pycache__/
