@@ -3,3 +3,4 @@ reveal.js/
 *.egg-info/
 __pycache__/
 logs/
+.cache/
