@@ -1,2 +1,3 @@
 .ipynb_checkpoints/
 reveal.js/
+*.egg-info/
