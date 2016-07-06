@@ -1,6 +1,6 @@
 import sys
 import os
-import logging
+import logging.config
 import yaml
 
 logger = logging.getLogger(__name__)
@@ -23,7 +23,7 @@ def logmaker(**kwargs):
     return logging.handlers.RotatingFileHandler(path, **kwargs)
 
 def setup_logging(
-        default_path = get_path('logging.yaml')
+        default_path = get_path('logging.yaml'),
         default_level = logging.INFO,
         env_key='LOG_CFG'
     ):
